@@ -13,5 +13,5 @@ const reversePrefix = function(word, ch) {
   return (reversed)
     
 };
-console.log(reversePrefix('xyxzxe', 'z')) //"dcbaefd"
+console.log(reversePrefix('abcdefd', 'd')) //"dcbaefd"
 
