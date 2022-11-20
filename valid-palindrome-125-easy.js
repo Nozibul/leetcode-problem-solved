@@ -1,12 +1,16 @@
 const isPalindrome = function(palNum){
     const regEx = /[\W_]/g ;
     const normalizeStr  = palNum.toLowerCase().replace(regEx, '');
-    let revStr =  normalizeStr.split('').reverse().join('');
-
-   if(revStr === normalizeStr){
-     return true ;
-   }
-   return false;
+ 
+    let left = 0;
+    let right = normalizeStr.length-1;
+    
+    while(left < right){
+      if(normalizeStr[left] !== normalizeStr[right]) return false ;
+      left++
+      right--
+    }
+    return true
 
 }
-console.log(isPalindrome(''));
+isPalindrome('race_car');
