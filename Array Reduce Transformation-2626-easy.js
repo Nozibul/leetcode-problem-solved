@@ -2,9 +2,7 @@
 var reduce = function(nums, fn, init) {
     let acc = init;
     // if(!acc) acc =  nums[0];
-
     for(let i = 0; i < nums.length; i++){
-        console.log(nums[i]);
       acc = fn(acc, nums[i])
     }
     return acc ;
