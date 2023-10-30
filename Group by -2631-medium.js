@@ -7,6 +7,5 @@ Array.prototype.groupBy = function (fn) {
   }, {});
 };
 
-var arr = [1, 2, 3].groupBy(String);
-
+const arr = [1, 2, 3].groupBy(String);
 console.log(arr);
