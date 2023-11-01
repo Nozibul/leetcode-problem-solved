@@ -26,10 +26,7 @@ class EventEmitter {
   
   const emitter = new EventEmitter();
   
-  // Subscribe to the onClick event with onClickCallback
-  function onClickCallback() {
-    return 99;
-  }
+  function onClickCallback() {return 99; }
   
   const sub = emitter.subscribe('onClick', onClickCallback);
   
