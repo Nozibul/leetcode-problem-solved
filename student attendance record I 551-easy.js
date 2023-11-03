@@ -18,5 +18,5 @@ var checkRecord = function(s) {
     }
     return true ;
 };
-const result = checkRecord("LALLL");
-console.log(result);
+const result = checkRecord("LALL");
+console.log(result); // true ;
