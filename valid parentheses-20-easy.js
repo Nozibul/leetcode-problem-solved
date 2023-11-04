@@ -1,7 +1,4 @@
-/**
- * @param {string} s
- * @return {boolean}
- */
+
 var isValid = function (s) {
   while (s.includes("()") || s.includes("{}") || s.includes("[]")) {
     s = s.replace("()", "").replace("{}", "").replace("[]", "");
@@ -11,4 +8,4 @@ var isValid = function (s) {
 };
 
 const result = isValid("(){}}{");
-console.log(result);
+console.log(result); // false
