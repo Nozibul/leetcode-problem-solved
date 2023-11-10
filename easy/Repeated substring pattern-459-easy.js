@@ -4,7 +4,7 @@
  */
 var repeatedSubstringPattern = function(s) {
  let reg = /^(\w+)\1+$/
- return reg.test(s)
+ return reg.test(s);
 };
 const result = repeatedSubstringPattern("abcabcabcabc");
 console.log(result);
