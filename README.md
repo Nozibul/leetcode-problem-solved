@@ -17,20 +17,23 @@ Welcome to my LeetCode repository! Here, you'll find my solutions to various Lee
 
 ## Easy Problems
 
-- [Two Sum](./Easy/001_Two_Sum.js)
-- [Reverse Integer](./Easy/007_Reverse_Integer.js)
+- [Two Sum](easy/twoSum_1_easy.js)
+- [Palindrome Number](easy/palindromeNumber-9-easy.js)
+- [Allow One Function Call](easy/Allow One Function Call-2666-easy.js)
 <!-- Add more easy problems as needed -->
 
 ## Medium Problems
 
-- [Longest Substring Without Repeating Characters](./Medium/003_Longest_Substring_Without_Repeating_Characters.js)
-- [Remove Nth Node From End of List](./Medium/019_Remove_Nth_Node_From_End.js)
+- [Debounce](medium/Debounce-2627-medium.js)
+- [Memoize](medium/Memoize-2623-medium.js)
+- [Cache with time limit](medium/cache with time limit 2622-medium.js)
+- [Promise time limit ](medium/Promise time limit- 2637-medium.js)
 <!-- Add more medium problems as needed -->
 
 ## Hard Problems
 
-- [Regular Expression Matching](./Hard/010_Regular_Expression_Matching.js)
-- [Merge k Sorted Lists](./Hard/023_Merge_k_Sorted_Lists.js)
+- [Regular Expression Matching]()
+
 <!-- Add more hard problems as needed -->
 
 ## Contributing
