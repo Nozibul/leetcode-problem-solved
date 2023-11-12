@@ -6,7 +6,7 @@
 
 
 const isSubsequence = (s, t) => {
-    // if (s.length === 0) return true
+    if (s.length === 0) return true
 
     let subStr = 0 ;
 
