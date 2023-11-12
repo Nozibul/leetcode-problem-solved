@@ -19,15 +19,17 @@ Welcome to my LeetCode repository! Here, you'll find my solutions to various Lee
 
 - [Two Sum](easy/twoSum_1_easy.js)
 - [Palindrome Number](easy/palindromeNumber-9-easy.js)
-- [Allow One Function Call](easy/Allow One Function Call-2666-easy.js)
+- [Reverse prefix of word](easy/Reverse-Prefix_of_Word-2000-easy.js)
+- [Allow One Function Call]()
 <!-- Add more easy problems as needed -->
 
 ## Medium Problems
 
 - [Debounce](medium/Debounce-2627-medium.js)
 - [Memoize](medium/Memoize-2623-medium.js)
-- [Cache with time limit](medium/cache with time limit 2622-medium.js)
-- [Promise time limit ](medium/Promise time limit- 2637-medium.js)
+- [Sub Array](medium/subArray-meduim-15.js)
+- [Cache with time limit]()
+- [Promise time limit]()
 <!-- Add more medium problems as needed -->
 
 ## Hard Problems
