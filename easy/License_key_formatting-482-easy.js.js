@@ -13,5 +13,5 @@ var licenseKeyFormatting = function(S, K) {
     }
     return arr.join('');
 };
-const result = licenseKeyFormatting("5F3Z-2e-9-w", 4);
-console.log(result);
+const result = licenseKeyFormatting("2-5g-3-J", 2);
+console.log(result); // "2-5G-3J"
