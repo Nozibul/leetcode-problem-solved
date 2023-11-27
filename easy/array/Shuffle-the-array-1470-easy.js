@@ -12,4 +12,4 @@ var shuffle = function(nums, n) {
     return arr;
 };
 const result = shuffle([2,5,1,3,4,7], 3);
-console.log(result); 
+console.log(result); // [ 2, 3, 5, 4, 1, 7 ];
