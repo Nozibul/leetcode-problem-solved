@@ -15,3 +15,12 @@ var decode = function(encoded, first) {
 };
 const result = decode([1,2,3], 1);
 console.log(result); //[ 1, 0, 2, 1 ]
+
+
+// another approach
+var decode = function(encoded, first) {
+    let res = [first];
+    encoded.forEach((val, i) => res.push(res[i] ^ val));
+
+    return res; 
+};
