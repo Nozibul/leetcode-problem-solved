@@ -12,4 +12,17 @@
   return "";
 };
 const result = largestOddNumber("92");
-console.log(result); // 9 
+// console.log(result); // 9 
+
+const oddNumber = function (num) {
+ 
+  let largeOdd = ""
+  for (let i = 0; i < num.length ; i++) {
+    if ((+num[i]) % 2 === 1 && num[i] > largeOdd) {
+      largeOdd = num[i]
+    }
+  }
+  return largeOdd;
+};
+const result1 = oddNumber("10422");
+console.log(result1);
