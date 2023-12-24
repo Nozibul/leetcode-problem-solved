@@ -18,4 +18,3 @@ var maxScore = function(s) {
 const result = maxScore("1111");
 console.log(result); // 5
 
-//const count = (s.match(/1/g) || []).length;
