@@ -6,12 +6,12 @@ var lemonadeChange = function(bills) {
     const cash = [];
     for (let i = 0; i < bills.length; i++) {
       if (bills[i] === 5) {
-        cash.unshift(5); //  add bills in cash
-
-      } else if (bills[i] === 10) {
+        cash.push(5); //  add bills in cash
+        
+    } else if (bills[i] === 10) {
         if (cash.shift() !== 5) return false;
         cash.push(10);
-
+    
       } else {
         if (cash.shift() !== 5) return false;
 
