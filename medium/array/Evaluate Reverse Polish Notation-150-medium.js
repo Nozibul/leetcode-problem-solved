@@ -4,6 +4,7 @@
  */
 var evalRPN = function(tokens) {
     let stack = [];
+    
     for (let i = 0; i < tokens.length; i++) {
         switch (tokens[i]) {
             case "+":
