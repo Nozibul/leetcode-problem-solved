@@ -16,7 +16,6 @@ var arithmeticTriplets = function(nums, diff) {
         }
         hash.set(num);
     }
-    console.log(hash);
     return count;
 };
 console.log(arithmeticTriplets([4,5,6,7,8,9], 2)); // 2
