@@ -23,8 +23,8 @@ var isPalindrome = function(head) {
         slow = slow.next;
 
     while (prev && slow) {
-        if (prev.val !== slow.val)
-            return false;
+        if (prev.val !== slow.val) return false;
+        
         prev = prev.next;
         slow = slow.next;
     }
