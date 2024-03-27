@@ -20,7 +20,6 @@ var numSubarrayProductLessThanK = function(nums, k) {
 
         count += right - left + 1;
     }
-
     return count;
 
 };
