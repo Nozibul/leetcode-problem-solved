@@ -15,4 +15,5 @@ var findDuplicates = function(nums) {
     }
     return result;
 };
+
 console.log(findDuplicates([4,3,2,7,8,2,3,1] )); //[4,3,2,7,8,2,3,1]
