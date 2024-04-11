@@ -3,7 +3,7 @@
  * @return {string}
  */
 var removeOuterParentheses = function (s) {
-    let count = 0, outer = ""
+    let count = 0, outer = "" ;
 
     for (let i = 0; i < s.length; i++) {
         if (s[i] === "(") {
@@ -18,4 +18,5 @@ var removeOuterParentheses = function (s) {
     }
     return outer;
 };
+
 console.log(removeOuterParentheses("(()())(())")); //"()()()"
