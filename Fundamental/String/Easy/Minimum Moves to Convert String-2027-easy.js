@@ -12,4 +12,4 @@ var minimumMoves = function(s) {
     }
     return count;
 };
-console.log("xxx"); // 1
+console.log(minimumMoves("xxx")); // 1
