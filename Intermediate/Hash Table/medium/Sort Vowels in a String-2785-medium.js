@@ -19,3 +19,5 @@ var sortVowels = function(s) {
     }
     return res.join('');
 };
+
+console.log("lEetcOde"); // "lEOtcede"
