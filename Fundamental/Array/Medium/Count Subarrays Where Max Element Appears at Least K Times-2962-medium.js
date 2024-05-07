@@ -19,6 +19,6 @@ var countSubarrays = function (nums, k) {
       }
     }
   
-    return ans;
+    return ans
   };
   console.log(countSubarrays([1,3,2,3,3], 2)); // 6

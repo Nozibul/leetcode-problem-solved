@@ -24,7 +24,7 @@ var evalRPN = function(tokens) {
                 break;
         }
     }
-    return stack[0];
+    return stack[0]
 };
 console.log(evalRPN(["2","1","+","3","*"]));
 Output: 9
