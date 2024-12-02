@@ -4,8 +4,10 @@
  */
 var compressedString = function(word) {
     let compressed = "";
+    
     let cnt = 1, n = word.length;
     let currentChar = word[0];
+
     for (let i = 1; i < n; i++) {
         if (word[i] === currentChar && cnt < 9) {
             cnt++;
