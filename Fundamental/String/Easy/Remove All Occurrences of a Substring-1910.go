@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -14,11 +15,11 @@ func removeOccurrences(s string, part string) string {
 	return s
 }
 
-// func main() {
-// 	// Example usage of removeOccurrences
-// 	s := "hellohellohello"
-// 	part := "hello"
-// 	result := removeOccurrences(s, part)
-// 	fmt.Println("Original String:", s)
-// 	fmt.Println("Modified String:", result)
-// }
+func main() {
+	// Example usage of removeOccurrences
+	s := "hellohellohello"
+	part := "hello"
+	result := removeOccurrences(s, part)
+	fmt.Println("Original String:", s)
+	fmt.Println("Modified String:", result)
+}
