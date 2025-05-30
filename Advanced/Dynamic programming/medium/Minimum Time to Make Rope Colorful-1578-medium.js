@@ -18,3 +18,4 @@ var minCost = function(colors, neededTime) {
     return output;
 };
 console.log(minCost( "abaac", [1,2,3,4,5])); // 3
+console.log(minCost( "abc", [1,2,3])); // 0
