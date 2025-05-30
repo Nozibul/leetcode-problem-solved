@@ -13,3 +13,4 @@ var maxProfit = function(P, F) {
 };
 
 console.log(maxProfit([1,3,2,8,4,9], 2)); // 8
+console.log(maxProfit([3,2,8,4,9], 3)); // 7
