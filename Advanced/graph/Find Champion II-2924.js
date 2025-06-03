@@ -19,3 +19,4 @@ const findChampion = function (n, edges) {
     return (ans.length === 1) ? ans[0] : -1
   };
   console.log(findChampion(3, [[0,1],[1,2]])); // 0
+  console.log(findChampion(4, [[0,1],[1,2],[2,3]])); // -1
