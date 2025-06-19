@@ -44,3 +44,4 @@ var maximumGain = function(s, x, y) {
 };
 
 console.log(maximumGain("cdbcbbaaabab", 4, 5)); // 19
+console.log(maximumGain("aabbaaxybbaabb", 5, 4)); // 19
