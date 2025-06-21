@@ -10,4 +10,5 @@ func divisorGame(N int) bool {
 
 func main() {
 	fmt.Println(divisorGame(3)) // false
+	fmt.Println(divisorGame(6)) // false
 }
