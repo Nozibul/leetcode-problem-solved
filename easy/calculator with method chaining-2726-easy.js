@@ -35,5 +35,7 @@ class Calculator {
 }
 
 const result = new Calculator(20).divide(0).getResult();
+const results = new Calculator(26).divide(2).getResult();
 
-console.log("Result:", result);
+console.log("Result:", result); // "Division by zero is not allowed"
+console.log("Results:", results); // 13
