@@ -22,4 +22,3 @@ var modifiedList = function(excludeValues, head) {
 };
 
 console.log(modifiedList([2,3,4], [1,2,3,4,5,6])); // [1,5,6]
-console.log(modifiedList([1], [1,2,1,2,1,2])); // [2,2,2

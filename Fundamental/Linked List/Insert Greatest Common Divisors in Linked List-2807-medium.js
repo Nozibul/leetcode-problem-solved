@@ -30,3 +30,4 @@ let gcd = function(num1,num2){
     return hcf;
 }
 console.log(insertGreatestCommonDivisors([18,6,10,3])); // [18,6,6,2,10,1,3]
+console.log(insertGreatestCommonDivisors([18, 22, 11, 100])); // [18, 22, 11, 10, 100, 1]
