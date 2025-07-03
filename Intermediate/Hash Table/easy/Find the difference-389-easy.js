@@ -29,4 +29,5 @@ var findTheDifference = function(s, t) {
     return String.fromCharCode(ret); // Convert the XOR result to a character
 };
 const result = findTheDifference("ABC", "abcde");
-console.log(result);
+console.log(result); // e
+console.log(result.charCodeAt(0)); // 101
