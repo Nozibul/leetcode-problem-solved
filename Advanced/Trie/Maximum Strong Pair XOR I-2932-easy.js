@@ -14,4 +14,4 @@ const maximumStrongPairXor = (nums) => {
     return max;
   };
   console.log(maximumStrongPairXor([1,2,3,4,5])); //7
-  console.log(maximumStrongPairXor([2,4,6,8,10])); //14
+  console.log(maximumStrongPairXor([2,4,8,10])); // 14
