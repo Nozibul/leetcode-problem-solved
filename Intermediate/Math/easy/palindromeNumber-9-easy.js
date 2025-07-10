@@ -6,4 +6,5 @@ const isPalindrome = function (palNum){
     return false ;
 
 }
-console.log(isPalindrome(10));
+console.log(isPalindrome(10)); 
+console.log(isPalindrome(121)); 
