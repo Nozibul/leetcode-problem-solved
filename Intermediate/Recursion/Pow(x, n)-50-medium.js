@@ -14,3 +14,4 @@ var myPow = function(x, n) {
     return n < 0 ? 1/result : result;
 };
 console.log(myPow(2.00000, 10)) // 1024
+console.log(myPow(2.10000, 3)) // 9.26100
