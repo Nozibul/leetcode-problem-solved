@@ -7,3 +7,4 @@ var interpret = function(command) {
 
 };
 console.log(interpret("G()()()()(al)")); // "Gooooal"
+console.log(interpret("G()()()()")); // "Gooooo" 
