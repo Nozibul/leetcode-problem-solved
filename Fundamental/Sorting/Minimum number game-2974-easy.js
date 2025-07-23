@@ -14,3 +14,4 @@ var numberGame = function(nums){
 };
 
 console.log(numberGame([5,4,2,3])); // [3,2,5,4]
+console.log(numberGame([4, 7, 6])); 
