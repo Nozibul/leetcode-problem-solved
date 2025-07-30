@@ -8,3 +8,4 @@ const thirdMax = function (nums) {
   return myArray.sort((a, b) => b - a).length < 3 ? myArray[0] : myArray[2];
 };
 console.log(thirdMax([3,2,1])); // 1
+console.log(thirdMax([3,34,3,2,1])); 
