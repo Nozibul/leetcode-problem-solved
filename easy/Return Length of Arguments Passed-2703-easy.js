@@ -4,4 +4,4 @@ var argumentsLength = function(...args) {
 };
 
 console.log(argumentsLength(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); // 10
-console.log(argumentsLength(3, 4, 5, 6, 7, 8));
+console.log(argumentsLength(3, 4, 5, 6, 7, 8)); 
