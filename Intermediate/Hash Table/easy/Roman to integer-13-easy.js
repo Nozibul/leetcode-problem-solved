@@ -21,4 +21,6 @@ var romanToInt = function (s) {
   return result;
 };
 const result = romanToInt("MCMXCIV");
+const results = romanToInt("MCMXCIVV");
 console.log(result); // 1994
+console.log(results); 
