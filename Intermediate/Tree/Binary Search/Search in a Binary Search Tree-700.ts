@@ -16,3 +16,5 @@ const searchBST = function(root, val) {
     }
 };
     
+
+console.log(searchBST([4,2,7,1,3], 2)); // 2
