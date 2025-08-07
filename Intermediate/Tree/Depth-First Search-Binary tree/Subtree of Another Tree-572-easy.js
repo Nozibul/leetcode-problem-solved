@@ -17,4 +17,4 @@ var isSubtree = function(root, subRoot) {
     return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot)
 };
 
-console.log(isSubtree([3,4,5,1,2,null,null,null,null,0], [4,1,2])); // true
+console.log(isSubtree([3,4,5,1,2], [4,1,2])); // true

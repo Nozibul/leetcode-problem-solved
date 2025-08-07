@@ -1,15 +1,4 @@
-/**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {string}
- */
+
 var tree2str = function(root) {
     if (!root) return "";
 
@@ -26,3 +15,4 @@ var tree2str = function(root) {
     return res;
 };
 console.log(tree2str([1,2,3,4])); // "1(2(4))(3)"
+console.log(tree2str([2,1,3,4])); 
