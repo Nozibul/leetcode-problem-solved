@@ -20,3 +20,4 @@ var primeSubOperation = function(nums) {
     return 1;
 };
 console.log(primeSubOperation([4,9,6,10])); // true
+console.log(primeSubOperation([12,9,9,6,1])); // false
