@@ -23,5 +23,5 @@ const numRollsToTarget = (n, k, target) => {
 
     return dp[target];
 };
-const result = numRollsToTarget(1, 6, 3);
-console.log(result);
+console.log(numRollsToTarget(3, 1, 6));
+console.log(numRollsToTarget(1, 6, 3)); 
