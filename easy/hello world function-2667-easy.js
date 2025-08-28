@@ -3,5 +3,5 @@ var createHelloWorld = function() {
        return "Hello World";
    }
 };
-const  helloWorldFn = createHelloWorld() ;
-console.log(helloWorldFn());
+
+console.log(helloWorldFn(createHelloWorld()));
