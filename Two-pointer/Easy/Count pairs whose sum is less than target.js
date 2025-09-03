@@ -1,6 +1,6 @@
 const countPairs = function(nums, target) {
   // Edge cases
-  if (!nums || nums.length < target) return 0;
+  if (!nums || nums.length < 2) return 0;
 
   // Sort array ascending
   nums.sort((a, b) => a - b);
@@ -27,4 +27,4 @@ const countPairs = function(nums, target) {
   return pairCount;
 };
 
-console.log(countPairs([-6,2,5,-2,-7,-1,3], -2)); // Output: 3
+console.log(countPairs([6,-1,7,4,2,3], 8)); // Output: 3
