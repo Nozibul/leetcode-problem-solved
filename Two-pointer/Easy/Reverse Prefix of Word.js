@@ -30,3 +30,18 @@ const reversePrefix = function(word, ch) {
 };
 console.log(reversePrefix("abcdefd", "d")) ; // Output: "dcbaefd"
 console.log(reversePrefix("xyxzxe", "z")) ; // Output: "dcbaefd"
+
+
+
+/**
+ * @param {string} word
+ * @param {character} ch
+ * @return {string}
+ */
+var reversePrefixs = function(word, ch) {
+    const index = word.indexOf(ch);
+
+    const prefix = word.substring(0, index+1);
+    const resStr = prefix.split("").reverse().join("");
+    return resStr + word.substring(index+1)
+};
