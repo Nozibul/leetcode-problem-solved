@@ -10,19 +10,19 @@ const arithmeticTriplets = function(nums, diff) {
     // Variable for counting valid triplets
     let triplets = 0;      
     let left = 0;              
-    let mid = 1;    // 2        
-    let right = 2;   // 3       
+    let mid = 1;      
+    let right = 2;  
 
     // Main logic using Two Poinetr 
     while(left < nums.length-2){
-        let gap1 = nums[mid] - nums[left]; // 1
-        let gap2 = nums[right] - nums[mid]; // 1
+        let gap1 = nums[mid] - nums[left]; 
+        let gap2 = nums[right] - nums[mid];
 
         if(gap1 === diff && gap2 === diff){
             triplets++;
             left++;
             mid++;
-            right++
+            right++;
         } else if(gap1 < diff){
           mid++;
           if (mid === right) right++; 
@@ -30,7 +30,7 @@ const arithmeticTriplets = function(nums, diff) {
             right++
         }else{
           left++;
-            if (mid <= left) mid = left + 1;
+            // if (mid <= left) mid = left + 1;
             // if (right <= mid) right = mid + 1;
         }
     }
