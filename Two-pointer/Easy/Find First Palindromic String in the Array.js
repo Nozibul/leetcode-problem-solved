@@ -29,5 +29,5 @@ var firstPalindrome = function(words) {
 return ""; // If no palindrome found
 };
 console.log(firstPalindrome(["abc","car","ada","racecar","cool"])); // Output: "ada"
-console.log(firstPalindrome(["notapalindrome","racecar"])); // Output: "ada"
-console.log(firstPalindrome(["def","ghi"])); // Output: "ada"
+console.log(firstPalindrome(["notapalindrome","racecar"])); // Output: "racecar"
+console.log(firstPalindrome(["def","ghi"])); // Output: ""
