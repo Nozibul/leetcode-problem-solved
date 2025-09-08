@@ -32,7 +32,7 @@ const mergeAlternately2 = function(word1, word2) {
 
     // MAin logic
     while (i < word1.length || j < word2.length) {
-     if (i < word1.length) result.push(word1[i++]);
+        if (i < word1.length) result.push(word1[i++]);
         if (j < word2.length) result.push(word2[j++]);
     }
     // Return Statement
