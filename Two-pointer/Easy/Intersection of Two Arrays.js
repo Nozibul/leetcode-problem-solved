@@ -29,7 +29,7 @@ var intersection = function(nums1, nums2) {
     return [...result];
     
 };
-console.log(intersection([1,1,2,2], [2,2])); // [2, 2]
+console.log(intersection([1,1,2,2], [2,2])); // [2]
 console.log(intersection([3,9,8,5], [9,4,9,8,5])); // [5,8,9]
 console.log(intersection([4,9,5], [9,4,9,8,4])); // [4,9]
 
