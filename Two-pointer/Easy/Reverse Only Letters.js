@@ -23,7 +23,7 @@ var reverseOnlyLetters = function(s) {
             right--;
         }
     }
-    // eturn statement
+    // Return statement
     return newValue.join("");
 };
 
